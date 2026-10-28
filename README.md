@@ -88,6 +88,34 @@ The file [`schema/AdventureWorks2019_ERD.png`](schema/AdventureWorks2019_ERD.png
 
 The consolidated practice script, [`sql/00_Overall_queries.sql`](sql/00_Overall_queries.sql), contains the broader set of SQL exercises. The six individual scripts provide a more focused view of the main sales analysis.
 
+## Database Schema
+
+![AdventureWorks2019 Entity Relationship Diagram](schema/AdventureWorks2019_ERD.png)
+
+## Visual Results Gallery
+
+Explore selected query outputs from the AdventureWorks2019 SQL analysis.
+
+### Sales and Product Analysis
+
+| Top-Selling Products | Product Quantity Sold |
+|---|---|
+| ![Top-selling products](screenshots/list%20of%2010%20top%20selling%20Products.png) | ![Product quantity sold](screenshots/list%20of%20all%20products%20and%20the%20total%20quantity%20sold.png) |
+
+### Revenue Analysis
+
+| Category Revenue Classification | Second-Highest-Selling Product |
+|---|---|
+| ![Category revenue classification](screenshots/Classification%20of%20categories.png) | ![Second-highest-selling product](screenshots/second%20highest%20selling%20product.png) |
+
+### Data Quality and Customer Analysis
+
+| Products Without Recorded Sales | Customer Sales |
+|---|---|
+| ![Products without recorded sales](screenshots/ProductsNeverSold.png) | ![Customer sales](screenshots/TotalSales%20per%20CustomerId.png) |
+
+*The screenshots show query outputs from the project. Refer to the SQL scripts and CSV exports for query logic and detailed results.*
+
 ## Analysis Scripts and Results
 
 Each main analysis has a dedicated SQL script and a corresponding CSV export.
@@ -100,6 +128,7 @@ Each main analysis has a dedicated SQL script and a corresponding CSV export.
 | Top products by revenue | [View SQL](sql/04_top_products_by_revenue.sql) | [View CSV](results/04_top_products_by_revenue.csv) | [View Screenshot](screenshots/list%20of%2010%20top%20selling%20Products.png) |
 | Customer sales contribution | [View SQL](sql/05_customer_sales_contribution.sql) | [View CSV](results/05_customer_sales_contribution.csv) | [View Screenshot](screenshots/TotalSales%20per%20CustomerId.png) |
 | Products without recorded sales | [View SQL](sql/06_products_without_recorded_sales.sql) | [View CSV](results/06_products_without_recorded_sales.csv) | [View Screenshot](screenshots/ProductsNeverSold.png) |
+| Second-highest-selling product | [View Query](sql/00_Overall_queries.sql) | [Browse Practice Results](results/README.md) | [View Screenshot](screenshots/second%20highest%20selling%20product.png) |
 
 The additional practice-query exports are documented in [`results/README.md`](results/README.md). Query-result screenshots are documented in [`screenshots/README.md`](screenshots/README.md).
 
