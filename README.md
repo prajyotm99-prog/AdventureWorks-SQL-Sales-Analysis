@@ -19,6 +19,7 @@ The project includes commented SQL queries, individual analysis scripts, CSV res
 5. What quantity has been ordered for each product, including products without matching sales records?
 6. Which customers have the highest order value?
 7. Which products have no matching sales-order detail records?
+8. Second highest selling product. 
 
 ## KPI Definitions
 
@@ -86,11 +87,12 @@ The tree above is a structural overview. The `00_Overall_queries*.csv` notation 
 
 The file [`schema/AdventureWorks2019_ERD.png`](schema/AdventureWorks2019_ERD.png) provides a visual reference for the database's entity relationships. It can help trace joins between product, category, sales, customer, and employee tables.
 
-The consolidated practice script, [`sql/00_Overall_queries.sql`](sql/00_Overall_queries.sql), contains the broader set of SQL exercises. The six individual scripts provide a more focused view of the main sales analysis.
-
-## Database Schema
 
 ![AdventureWorks2019 Entity Relationship Diagram](schema/AdventureWorks2019_ERD.png)
+
+
+The consolidated practice script, [`sql/00_Overall_queries.sql`](sql/00_Overall_queries.sql), contains the broader set of SQL exercises. The six individual scripts provide a more focused view of the main sales analysis.
+
 
 ## Visual Results Gallery
 
@@ -170,10 +172,7 @@ Each finding should identify the relevant query and use values verified against 
 
 ## Future Improvements
 
-- Add verified business findings supported by query outputs.
-- Build a Power BI dashboard using validated results.
 - Add year, quarter, and month sales-trend analysis.
-- Compare order value, subtotal, and sales-line revenue as distinct metrics.
 - Add customer and product drill-down analysis.
 
 ## Dataset
