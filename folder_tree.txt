@@ -1,0 +1,68 @@
+Folder PATH listing for volume New Volume
+Volume serial number is F4FB-AD13
+D:.
+|   folder_tree.txt
+|   
+\---AdventureWorks2019-SQL-Sales-Analysis
+    |   .gitignore
+    |   README.md
+    |   
+    +---results
+    |       00_Overall_queries.csv
+    |       00_Overall_queries_10.csv
+    |       00_Overall_queries_12.csv
+    |       00_Overall_queries_13.csv
+    |       00_Overall_queries_14.csv
+    |       00_Overall_queries_15.csv
+    |       00_Overall_queries_16.csv
+    |       00_Overall_queries_17.csv
+    |       00_Overall_queries_18.csv
+    |       00_Overall_queries_2.csv
+    |       00_Overall_queries_3.csv
+    |       00_Overall_queries_4.csv
+    |       00_Overall_queries_5.csv
+    |       00_Overall_queries_6.csv
+    |       00_Overall_queries_7.csv
+    |       00_Overall_queries_8.csv
+    |       00_Overall_queries_9.csv
+    |       01_overall_sales_kpis.csv
+    |       02_product_quantity_sold.csv
+    |       03_category_revenue_classification.csv
+    |       04_top_products_by_revenue.csv
+    |       05_customer_sales_contribution.csv
+    |       06_products_without_recorded_sales.csv
+    |       README.md
+    |       
+    +---schema
+    |       AdventureWorks2019_ERD.png
+    |       
+    +---screenshots
+    |       average salary of Department employees.png
+    |       AvgPrice, MaxPrice, MinPrice for each Category.png
+    |       AvgPrice.png
+    |       Classification of categories.png
+    |       departments with more than 10 employees .png
+    |       first names and last names of customers in uppercase .png
+    |       Hired in 2010.png
+    |       list of 10 top selling Products alternative.png
+    |       list of 10 top selling Products.png
+    |       list of all products and the total quantity sold alternative.png
+    |       list of all products and the total quantity sold.png
+    |       Name, email, Job Title.png
+    |       names of employees who have sold products that were never sold by any other.png
+    |       ProductsNeverSold.png
+    |       Product_Counts.png
+    |       README.md
+    |       sales order ID, product name, order quantity, and the salesperson's Name for all sales orders. .png
+    |       second highest selling product.png
+    |       TotalSales per CustomerId.png
+    |       
+    \---sql
+            00_Overall_queries.sql
+            01_overall_sales_kpis.sql
+            02_product_quantity_sold.sql
+            03_category_revenue_classification.sql
+            04_top_products_by_revenue.sql
+            05_customer_sales_contribution.sql
+            06_products_without_recorded_sales.sql
+            

@@ -1,0 +1,14 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.user
+*.suo
+
+# Local database files and backups
+*.mdf
+*.ldf
+*.bak
+
+# Temporary files
+*.tmp
