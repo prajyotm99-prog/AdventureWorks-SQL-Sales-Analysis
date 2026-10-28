@@ -130,7 +130,7 @@ Each main analysis has a dedicated SQL script and a corresponding CSV export.
 | Top products by revenue | [View SQL](sql/04_top_products_by_revenue.sql) | [View CSV](results/04_top_products_by_revenue.csv) | [View Screenshot](screenshots/list%20of%2010%20top%20selling%20Products.png) |
 | Customer sales contribution | [View SQL](sql/05_customer_sales_contribution.sql) | [View CSV](results/05_customer_sales_contribution.csv) | [View Screenshot](screenshots/TotalSales%20per%20CustomerId.png) |
 | Products without recorded sales | [View SQL](sql/06_products_without_recorded_sales.sql) | [View CSV](results/06_products_without_recorded_sales.csv) | [View Screenshot](screenshots/ProductsNeverSold.png) |
-| Second-highest-selling product | [View Query](sql/07_secondhighest_selling_product.sql) | [View CSV](results/07_secondhighest_selling_product.csv) | [View Screenshot](screenshots/second%20highest%20selling%20product.png) |
+| Second-highest-selling product | [View Query](sql/07_second_highest_selling_product.sql) | [View CSV](results/07_second_highest_selling_product.csv) | [View Screenshot](screenshots/second%20highest%20selling%20product.png) |
 
 The additional practice-query exports are documented in [`results/README.md`](results/README.md). Query-result screenshots are documented in [`screenshots/README.md`](screenshots/README.md).
 
