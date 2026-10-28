@@ -92,14 +92,14 @@ The consolidated practice script, [`sql/00_Overall_queries.sql`](sql/00_Overall_
 
 Each main analysis has a dedicated SQL script and a corresponding CSV export.
 
-| Analysis | SQL Script | CSV Result |
-|---|---|---|
-| Overall sales KPIs | [01_overall_sales_kpis.sql](sql/01_overall_sales_kpis.sql) | [View CSV](results/01_overall_sales_kpis.csv) |
-| Product quantity sold | [02_product_quantity_sold.sql](sql/02_product_quantity_sold.sql) | [View CSV](results/02_product_quantity_sold.csv) |
-| Category revenue classification | [03_category_revenue_classification.sql](sql/03_category_revenue_classification.sql) | [View CSV](results/03_category_revenue_classification.csv) |
-| Top products by revenue | [04_top_products_by_revenue.sql](sql/04_top_products_by_revenue.sql) | [View CSV](results/04_top_products_by_revenue.csv) |
-| Customer sales contribution | [05_customer_sales_contribution.sql](sql/05_customer_sales_contribution.sql) | [View CSV](results/05_customer_sales_contribution.csv) |
-| Products without recorded sales | [06_products_without_recorded_sales.sql](sql/06_products_without_recorded_sales.sql) | [View CSV](results/06_products_without_recorded_sales.csv) |
+| Analysis | SQL Script | CSV Result | Screenshot |
+|---|---|---|---|
+| Overall sales KPIs | [View SQL](sql/01_overall_sales_kpis.sql) | [View CSV](results/01_overall_sales_kpis.csv) | [View Screenshot](screenshots/TotalSales%20per%20CustomerId.png) |
+| Product quantity sold | [View SQL](sql/02_product_quantity_sold.sql) | [View CSV](results/02_product_quantity_sold.csv) | [View Screenshot](screenshots/list%20of%20all%20products%20and%20the%20total%20quantity%20sold.png) |
+| Category revenue classification | [View SQL](sql/03_category_revenue_classification.sql) | [View CSV](results/03_category_revenue_classification.csv) | [View Screenshot](screenshots/Classification%20of%20categories.png) |
+| Top products by revenue | [View SQL](sql/04_top_products_by_revenue.sql) | [View CSV](results/04_top_products_by_revenue.csv) | [View Screenshot](screenshots/list%20of%2010%20top%20selling%20Products.png) |
+| Customer sales contribution | [View SQL](sql/05_customer_sales_contribution.sql) | [View CSV](results/05_customer_sales_contribution.csv) | [View Screenshot](screenshots/TotalSales%20per%20CustomerId.png) |
+| Products without recorded sales | [View SQL](sql/06_products_without_recorded_sales.sql) | [View CSV](results/06_products_without_recorded_sales.csv) | [View Screenshot](screenshots/ProductsNeverSold.png) |
 
 The additional practice-query exports are documented in [`results/README.md`](results/README.md). Query-result screenshots are documented in [`screenshots/README.md`](screenshots/README.md).
 
